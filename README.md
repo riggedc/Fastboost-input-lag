@@ -1,0 +1,2 @@
+# Fastboost
+Latency optimizer
