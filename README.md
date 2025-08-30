@@ -48,6 +48,13 @@ It eliminates the need to manually edit the registry or type complex commands by
 
     Download the latest FastBoost.exe from the Releases page.
 
+    ## 💖 Support the project
+
+If you like this app and want to support my work, you can donate via Stripe:
+
+[![Donate via Stripe](https://img.shields.io/badge/Donate-Stripe-blue.svg)](https://buy.stripe.com/6oU5kC3bKaMW2KKeQe7g401)
+
+
     Run it — Windows will prompt for administrator approval.
 
     Click the desired buttons to apply settings.
