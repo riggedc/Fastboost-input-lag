@@ -26,6 +26,13 @@ It eliminates the need to manually edit the registry or type complex commands by
 
     Unpark CPU Cores – Keep all CPU cores active at all times.
 
+    other possible tweak, could be added : 
+    reg HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AFD\Parameters
+    
+
+    - FastSendDatagramThreshold decimal : 65536
+    - AncillaryFastPathSupport hexa : 1
+
     Recommended settings clearly marked with *.
 
 🖼️ Interface
