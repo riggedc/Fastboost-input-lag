@@ -26,14 +26,14 @@ It eliminates the need to manually edit the registry or type complex commands by
 
     Unpark CPU Cores – Keep all CPU cores active at all times.
 
-    other possible tweak, could be added : 
-    reg HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AFD\Parameters
-    
+other possible tweaks : 
 
-    - FastSendDatagramThreshold decimal : 65536
-    - AncillaryFastPathSupport hexa : 1
+sc config GraphicsPerfSvc start= disabled
+sc stop XblAuthManager
+sc config XblAuthManager start= disabled  
 
-    Recommended settings clearly marked with *.
+sc stop DiagTrack
+sc config DiagTrack start= disabled
 
 🖼️ Interface
 
